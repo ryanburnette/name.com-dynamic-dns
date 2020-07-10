@@ -2,7 +2,8 @@
 
 var cron = require('node-cron');
 var update = require('./app');
-var schedule = process.env.SCHEDULE || '*/15 * * * *'; // default every 15 minutes
+// default schedule is every 5m to match 300s ttl
+var schedule = process.env.SCHEDULE || '*/5 * * * *';
 
 cron.schedule(schedule, function () {
   update();

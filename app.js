@@ -104,7 +104,7 @@ async function updateNameComRecord({ records, type, answer }) {
         host,
         type,
         answer,
-        ttl: 300 // name.com minimum
+        ttl: 300 // name.com minimum 300s
       },
       config
     );
