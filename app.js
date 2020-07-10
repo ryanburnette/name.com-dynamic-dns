@@ -94,6 +94,8 @@ async function updateNameComRecord({ records, type, answer }) {
         },
         config
       );
+    } else {
+      return false;
     }
   } else {
     return axios.post(
