@@ -53,7 +53,7 @@ function getRecords() {
     });
 }
 
-function getIpV4() {
+async function getIpV4() {
   return publicIp
     .v4({
       onlyHttps: true,
@@ -65,7 +65,7 @@ function getIpV4() {
     });
 }
 
-function getIpV6() {
+async function getIpV6() {
   return publicIp
     .v6({
       onlyHttps: true,
