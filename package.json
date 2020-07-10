@@ -1,0 +1,20 @@
+{
+  "name": "name.com-dynamic-dns",
+  "version": "0.1.0",
+  "description": "A dynamic DNS service for Name.com.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Burnette <ryan.burnette@gmail.com> (https://ryanburnette.com)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "public-ip": "^4.0.2"
+  },
+  "devDependencies": {
+    "axios-logger": "^2.3.1"
+  }
+}
