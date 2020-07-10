@@ -1,4 +1,4 @@
-# Name.com Dynamic DNS Service
+# Name.com Dynamic DNS
 
 ## Configure
 
